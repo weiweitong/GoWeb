@@ -64,8 +64,15 @@ func main() {
 	bSlice = aSlice[0:5]
 	bSlice = aSlice[:]
 
-	fmt.Printf("%v + %v\n\n", aSlice, bSlice)
+	fmt.Printf("%c + %c\n\n", aSlice, bSlice)
 
-	// d
+	// slice 是引用类型，如果改变其中元素的值时，其他所有引用都会改变该值
+	// 如果修改了aSlice中元素的值，bSlice也会改变
+	aSlice[1] = 'z'
+	fmt.Printf("%c\n\n", bSlice)
 
+	// 声明一个key是字符串，值为int的字典，这种方式的声明需要在使用前使用make初始化
+	//var numbers map[string]int
+	// 另一种map的声明方式
+	//numbers
 }
