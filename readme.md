@@ -1,1 +1,1 @@
-hello, this is my website.
+hello, this is my Golang Program.
