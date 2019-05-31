@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func main()  {
+func main() {
 	var cmp complex64 = 5 + 5i
 	fmt.Printf("Value is: %v", cmp)
 
@@ -48,7 +48,7 @@ func main()  {
 	var fslice []int
 	fmt.Printf("%v\n\n", fslice)
 
-	slice := []byte {'a', 'b', 'c', 'd'}
+	slice := []byte{'a', 'b', 'c', 'd'}
 	fmt.Printf("%c\n\n", slice)
 
 	var array = [10]byte{'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'}
@@ -66,5 +66,6 @@ func main()  {
 
 	fmt.Printf("%v + %v\n\n", aSlice, bSlice)
 
+	// d
 
 }
