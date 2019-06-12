@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0b27875-a4a5-4122-9255-40694b19de33" name="Default Changelist" comment="add note">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTTP/.idea/GoWeb.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTTP/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTTP/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTTP/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTTP/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.idea/example.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/csp.go" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/main/csp.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z00_interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex00_interface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z01_select.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex01_select.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z02_timeout.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex02_timeout.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z03_default.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex03_default.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z04_channel_close.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex04_channel_close.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z05_range_channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex05_range_channel.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z06_timer.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex06_timer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z07_ticker.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex07_ticker.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z08_pool.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex08_pool.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z09_limiter.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex09_limiter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z10_atomic.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex10_atomic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z11_mutex.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex11_mutex.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z12_state_goroutine.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex12_state_goroutine.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z13_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex13_sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z14_defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex14_defer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z15_strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex15_strings.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z16_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex16_json.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/z17_read_write_scanner.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex17_read_write_scanner.go" afterDir="false" />
-    </list>
+    <list default="true" id="c0b27875-a4a5-4122-9255-40694b19de33" name="Default Changelist" comment="add note" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +10,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/src/main/csp.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="144">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crawler/src/main/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -114,7 +92,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Algorithm/src/main/csp.go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/crawler/src/main/main.go" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -135,7 +113,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.csp">
+  <component name="RunManager" selected="Go Build.crawler">
+    <configuration name="crawler" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="GoWeb" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/crawler/src/main/main.go" />
+      <directory value="$PROJECT_DIR$/crawler" />
+      <method v="2" />
+    </configuration>
     <configuration name="csp" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoWeb" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -309,6 +296,7 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.csp" />
+      <item itemvalue="Go Build.crawler" />
       <item itemvalue="Go Build.ex00_interface.go" />
       <item itemvalue="Go Build.ex01_select" />
       <item itemvalue="Go Build.ex02_timeout" />
@@ -338,7 +326,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329863" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329863" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,10 +377,27 @@
     <entry file="file://$PROJECT_DIR$/example/src/main/loop_if.go" />
     <entry file="file://$PROJECT_DIR$/src/main/hello.go" />
     <entry file="file://$PROJECT_DIR$/example/src/main/switch.go" />
+    <entry file="file://$PROJECT_DIR$/crawler/src/lib/lib.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#13#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/main/csp.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="144">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/src/main/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
