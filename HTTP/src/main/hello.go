@@ -6,6 +6,10 @@ import (
 	"fmt"
 )
 
+func abd() int {
+	return 1
+}
+
 func main() {
 	var cmp complex64 = 5 + 5i
 	fmt.Printf("Value is: %v", cmp)
@@ -71,6 +75,7 @@ func main() {
 	aSlice[1] = 'z'
 	fmt.Printf("%c\n\n", bSlice)
 
+	fmt.Println(abd())
 	// 声明一个key是字符串，值为int的字典，这种方式的声明需要在使用前使用make初始化
 	//var numbers map[string]int
 	// 另一种map的声明方式
