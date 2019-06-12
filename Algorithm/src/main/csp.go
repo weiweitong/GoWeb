@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	origin, wait := make(chan int), make(chan struct{})
 	Processor(origin, wait)
-	for num := 2; num < 100000000; num++ {
+	for num := 2; num < 1000; num++ {
 		origin <- num
 	}
 	close(origin)
