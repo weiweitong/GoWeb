@@ -71,4 +71,11 @@ func main()  {
 	in := []byte("a peach")
 	out := r.ReplaceAllFunc(in, bytes.ToUpper)
 	fmt.Println(string(out))
+
+	/*
+	^[0-9]+abc$
+	^为输入字符串的开始标记
+	[0-9]+匹配多个数字，
+	 */
+
 }

@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b27875-a4a5-4122-9255-40694b19de33" name="Default Changelist" comment="add note">
-      <change afterPath="$PROJECT_DIR$/HTTP/data/login.gtpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP/src/main/ht02_form.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/src/main/ex18_regexp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/main/strconv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTTP/data/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTTP/data/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTTP/src/main/ht03_form_validation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebServices/src/main/s00_IP.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebServices/src/main/s01_tcp_socket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebServices/src/main/s02_webSocket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebServices/src/main/webSocket_client.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTTP/src/main/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex0_hello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTTP/src/main/httpProxy.go" beforeDir="false" afterPath="$PROJECT_DIR$/HTTP/src/main/ht00_WebServer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTTP/src/main/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/HTTP/src/main/ht01_router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTTP/data/login.gtpl" beforeDir="false" afterPath="$PROJECT_DIR$/HTTP/data/login.gtpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTTP/src/main/ht02_form.go" beforeDir="false" afterPath="$PROJECT_DIR$/HTTP/src/main/ht02_form.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/ex18_regexp.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex18_regexp.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,39 +24,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTTP/src/main/ht00_WebServer.go">
+        <entry file="file://$PROJECT_DIR$/Algorithm/src/main/strconv.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="772">
+              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTTP/src/main/ht01_router.go">
+        <entry file="file://$PROJECT_DIR$/WebServices/src/main/s00_IP.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="504">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="e#14#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTTP/src/main/ht02_form.go">
+        <entry file="file://$PROJECT_DIR$/WebServices/src/main/s01_tcp_socket.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="632">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebServices/src/main/webSocket_client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/src/main/ex18_regexp.go">
+        <entry file="file://$PROJECT_DIR$/WebServices/src/main/s02_webSocket.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+            <state relative-caret-position="828">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
-                <element signature="e#14#41#0" expanded="true" />
+                <element signature="e#14#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,9 +85,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Go File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/HTTP/src/main</dir>
+    </dirStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
@@ -84,16 +116,24 @@
         <option value="$PROJECT_DIR$/Algorithm/src/main/csp.go" />
         <option value="$PROJECT_DIR$/HTTP/src/main/form.go" />
         <option value="$PROJECT_DIR$/HTTP/src/main/ht00_WebServer.go" />
-        <option value="$PROJECT_DIR$/HTTP/data/login.gtpl" />
-        <option value="$PROJECT_DIR$/HTTP/src/main/ht02_form.go" />
         <option value="$PROJECT_DIR$/example/src/main/ex18_regexp.go" />
+        <option value="$PROJECT_DIR$/HTTP/src/main/ht03_form_validation.go" />
+        <option value="$PROJECT_DIR$/HTTP/data/login.gtpl" />
+        <option value="$PROJECT_DIR$/HTTP/data/login.html" />
+        <option value="$PROJECT_DIR$/HTTP/data/upload.html" />
+        <option value="$PROJECT_DIR$/HTTP/src/main/ht02_form.go" />
+        <option value="$PROJECT_DIR$/Algorithm/src/main/strconv.go" />
+        <option value="$PROJECT_DIR$/WebServices/src/main/s00_IP.go" />
+        <option value="$PROJECT_DIR$/WebServices/src/main/s01_server.go" />
+        <option value="$PROJECT_DIR$/WebServices/src/main/client.html" />
+        <option value="$PROJECT_DIR$/WebServices/src/main/s02_webSocket.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1964" />
+    <option name="x" value="1842" />
     <option name="y" value="39" />
-    <option name="width" value="1876" />
+    <option name="width" value="1998" />
     <option name="height" value="2117" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -115,18 +155,18 @@
             <path>
               <item name="GoWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="WebServices" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="WebServices" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="WebServices" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -138,6 +178,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -145,7 +186,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/example/src/main/ex18_regexp.go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebServices/src/main/s00_IP.go" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -167,7 +208,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.ex18_regexp">
+  <component name="RunManager" selected="Go Build.IP">
+    <configuration name="IP" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="GoWeb" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/WebServices/src/main/s00_IP.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="crawler" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoWeb" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -384,8 +434,19 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="strconv" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="GoWeb" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Algorithm/src/main/strconv.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.ht02_form" />
+      <item itemvalue="Go Build.IP" />
+      <item itemvalue="Go Build.strconv" />
       <item itemvalue="Go Build.ex18_regexp" />
       <item itemvalue="Go Build.csp" />
       <item itemvalue="Go Build.crawler" />
@@ -415,12 +476,12 @@
     <frame x="1964" y="39" width="1876" height="2117" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27684563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16834451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37061048" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37061048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,7 +498,7 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27684563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29026845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -466,17 +527,6 @@
     <MESSAGE value="add note" />
     <option name="LAST_COMMIT_MESSAGE" value="add note" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/HTTP/src/main/ht02_form.go</url>
-          <line>40</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/example/src/main/loop_if.go" />
@@ -513,10 +563,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTTP/src/main/ht00_WebServer.go">
+    <entry file="file://$PROJECT_DIR$/example/src/main/ex0_hello.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="715">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
@@ -527,33 +577,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTTP/data/login.gtpl">
+    <entry file="file://$PROJECT_DIR$/HTTP/src/main/ht00_WebServer.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTTP/src/main/ht02_form.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/ex0_hello.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="612">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/ex18_regexp.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+        <state relative-caret-position="1674">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTTP/data/login.gtpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="5" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTTP/src/main/ht03_form_validation.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTTP/src/main/ht02_form.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="69" column="4" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTTP/data/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTTP/data/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/main/strconv.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding>
-            <element signature="e#14#41#0" expanded="true" />
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServices/src/main/s00_IP.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServices/src/main/s01_tcp_socket.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServices/src/main/webSocket_client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServices/src/main/s02_webSocket.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
