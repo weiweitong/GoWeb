@@ -2,18 +2,1116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b27875-a4a5-4122-9255-40694b19de33" name="Default Changelist" comment="add note">
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/main/strconv.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP/data/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP/data/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP/src/main/ht03_form_validation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebServices/src/main/s00_IP.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebServices/src/main/s01_tcp_socket.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebServices/src/main/s02_webSocket.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebServices/src/main/webSocket_client.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTTP/data/login.gtpl" beforeDir="false" afterPath="$PROJECT_DIR$/HTTP/data/login.gtpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTTP/src/main/ht02_form.go" beforeDir="false" afterPath="$PROJECT_DIR$/HTTP/src/main/ht02_form.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/ex18_regexp.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/ex18_regexp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebServices/src/main/s02_webSocket.go" beforeDir="false" afterPath="$PROJECT_DIR$/WebServices/src/main/s02_webSocket.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/aid/history/failure.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/aid/history/history.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/aid/history/success.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/aid/proxy/host.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/aid/proxy/proxy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/app.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/crawler/crawler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/crawler/crawlerpool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/crawler/spiderqueue.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/distribute/interface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/distribute/master_api.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/distribute/slave_api.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/distribute/task.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/distribute/taskjar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/downloader.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/downloader_surfer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/request/request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/request/request_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/request/temp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/agent/agent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/agent/agent_bsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/agent/agent_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/agent/agent_linux_arm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/agent/agent_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/example/example.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/param.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/phantom.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/surf.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/surfer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/downloader/surfer/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/collector/collector.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/collector/data/data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/collector/output_csv.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/collector/output_data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/collector/output_excel.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/collector/output_file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/collector/output_kafka.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/collector/output_mgo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/collector/output_mysql.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/collector/output_util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/output.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/pipeline/pipeline.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/scheduler/matrix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/scheduler/scheduler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/spider/common/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/spider/common/form.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/spider/context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/spider/parsejs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/spider/species.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/spider/spider.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/spider/timer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/app/spider/timer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/cmd/pholcus-cmd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/bytes/bytes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/config/fake.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/config/ini.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/config/ini_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/config/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/config/json_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/gc/gc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/array_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v0.1.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v0.1.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v0.1.1-v0.2.1-go1.1rc1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v0.2.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v0.2.0-v0.2.1-go1.1rc1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v0.2.1-go1.1rc1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v0.3.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v0.3.2-go1.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v0.3.2-go1.2-take2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v0.3.2-go1.2rc1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v1.0.0-go1.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v1.0.1a-go1.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v1.0.1b-go1.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench/v1.0.1c-go1.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench_array_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench_example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench_expand_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench_filter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench_iteration_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench_property_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench_query_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/bench_traversal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/doc/tips.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/expand.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/expand_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/filter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/filter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/iteration.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/iteration_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/manipulation.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/manipulation_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/misc/git/pre-commit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/property.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/property_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/query.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/query_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/testdata/gotesting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/testdata/gowiki.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/testdata/metalreview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/testdata/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/testdata/page2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/testdata/page3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/traversal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/traversal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/type_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/utilities.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/goquery/utilities_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/kafka/kafka.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/8bit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/ASCII.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/big5-data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/big5.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/charset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/convert_string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/cp51932.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/entity.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/entity_data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/euc-jp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/euc-kr-data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/euc-kr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/fallback.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/gb18030-data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/gb18030.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/gbk-data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/gbk.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/iso2022jp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/jis0201-data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/jis0208-data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/jis0212-data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/kuten.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/mahoniconv/mahoniconv.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/mbcs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/ms-jis-data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/reader.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/shiftjis-data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/shiftjis.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/tcvn3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/translate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/utf16.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/utf8.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mahonia/writer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mgo/count.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mgo/find.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mgo/insert.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mgo/list.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mgo/mgo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mgo/operator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mgo/operator_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mgo/remove.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mgo/update.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mgo/update_all.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mgo/upsert.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/mysql/mysql.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/ping/ping.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/ping/ping_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/pinyin/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/pinyin/initials_sort.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/pinyin/phonetic_symbol.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/pinyin/pinyin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/pinyin/pinyin_dict.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/pool/pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/queue/queue.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/session/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/session/sess_cookie.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/session/sess_cookie_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/session/sess_file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/session/sess_mem.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/session/sess_mem_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/session/sess_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/session/sess_utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/session/session.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/simplejson/simplejson.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/util/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/websocket/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/websocket/hybi.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/websocket/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/websocket/websocket.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/cell.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/col.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/date.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/hsl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/lib.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/reftable.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/row.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/sheet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/style.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/templates.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/theme.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/write.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/xmlContentTypes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/xmlSharedStrings.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/xmlStyle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/xmlTheme.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/xmlWorkbook.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/common/xlsx/xmlWorksheet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/config/setting.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/doc/GUI编译命令.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/doc/ICON.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/doc/distribute.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/doc/guishow_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/doc/help.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/doc/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/doc/module.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/doc/project.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/doc/webshow_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/example_main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/exec/exec.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/exec/exec_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/exec/exec_freebsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/exec/exec_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/exec/exec_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/gui/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/gui/guimain.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/gui/logview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/gui/model/guispider.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/gui/offline.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/gui/pholcus-gui.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/gui/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/gui/runmode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/gui/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/gui/var.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/logs/logs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/logs/logs/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/logs/logs/conn_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/logs/logs/console.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/logs/logs/console_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/logs/logs/file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/logs/logs/file_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/logs/logs/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/logs/logs/smtp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/logs/logs/smtp_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/pholcus_pkg/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/pholcus_pkg/proxy.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/pholcus_pkg/spiders/file.pholcus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/pholcus_pkg/spiders/ss2.pholcus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/pholcus_pkg/spiders/test.pholcus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/runtime/cache/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/runtime/status/status.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/MIT-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/Vagrantfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/api_versions_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/api_versions_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/async_producer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/broker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/consumer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/consumer_group_members.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/consumer_metadata_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/consumer_metadata_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/crc32_field.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/describe_groups_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/describe_groups_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/encoder_decoder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/examples/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/examples/http_server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/examples/http_server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/examples/http_server/http_server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/fetch_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/fetch_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/heartbeat_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/heartbeat_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/join_group_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/join_group_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/leave_group_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/leave_group_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/length_field.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/list_groups_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/list_groups_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/message.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/message_set.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/metadata_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/metadata_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/metrics.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/mockbroker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/mockresponses.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/mocks/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/mocks/async_producer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/mocks/consumer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/mocks/mocks.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/mocks/sync_producer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/offset_commit_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/offset_commit_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/offset_fetch_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/offset_fetch_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/offset_manager.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/offset_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/offset_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/packet_decoder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/packet_encoder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/partitioner.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/prep_encoder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/produce_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/produce_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/produce_set.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/real_decoder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/real_encoder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/response_header.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/sarama.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/sasl_handshake_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/sasl_handshake_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/sync_group_request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/sync_group_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/sync_producer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/tools/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/tools/kafka-console-consumer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/tools/kafka-console-consumer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/tools/kafka-console-consumer/kafka-console-consumer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/tools/kafka-console-partitionconsumer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/tools/kafka-console-partitionconsumer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/tools/kafka-console-partitionconsumer/kafka-console-partitionconsumer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/tools/kafka-console-producer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/tools/kafka-console-producer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/tools/kafka-console-producer/kafka-console-producer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/vagrant/boot_cluster.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/vagrant/create_topics.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/vagrant/install_cluster.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/vagrant/kafka.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/vagrant/provision.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/vagrant/run_toxiproxy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/vagrant/server.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/vagrant/setup_services.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/vagrant/toxiproxy.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/vagrant/zookeeper.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/Shopify/sarama/vagrant/zookeeper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/andybalholm/cascadia/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/andybalholm/cascadia/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/andybalholm/cascadia/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/andybalholm/cascadia/parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/andybalholm/cascadia/selector.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/cov_report.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/spew/bypass.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/spew/bypasssafe.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/spew/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/spew/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/spew/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/spew/dump.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/spew/format.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/spew/spew.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/spew/testdata/dumpcgo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/davecgh/go-spew/test_coverage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/batcher/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/batcher/batcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/breaker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/breaker/breaker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/deadline/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/deadline/deadline.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/retrier/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/retrier/backoffs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/retrier/classifier.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/retrier/retrier.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/semaphore/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-resiliency/semaphore/semaphore.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-xerial-snappy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-xerial-snappy/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-xerial-snappy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-xerial-snappy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/go-xerial-snappy/snappy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/queue/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/queue/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/queue/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/queue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/eapache/queue/queue.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/elazarl/go-bindata-assetfs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/elazarl/go-bindata-assetfs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/elazarl/go-bindata-assetfs/assetfs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/elazarl/go-bindata-assetfs/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/elazarl/go-bindata-assetfs/go-bindata-assetfs/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/appengine.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/buffer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/collations.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/connection.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/const.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/driver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/dsn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/infile.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/packets.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/result.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/rows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/statement.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/transaction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/go-sql-driver/mysql/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/CONTRIBUTORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/cmd/snappytool/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/decode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/decode_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/decode_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/decode_other.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/encode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/snappy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/testdata/pi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/golang/snappy/testdata/pi.txt.rawsnappy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/bytes-string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/currip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/encrypt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/exported.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/gopath.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/js_url.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/map.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/object_name.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/pid_file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/random.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/slice_set.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/targz.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/goutil/trace.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/debug/debug.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/doc/Teleport API Model Diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/example/ClassicalClient.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/example/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/example/client2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/example/client3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/example/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/netdata.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/protocol.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/return_func.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/teleport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/henrylee2cn/teleport/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/klauspost/crc32/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/klauspost/crc32/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/klauspost/crc32/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/klauspost/crc32/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/klauspost/crc32/crc32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/klauspost/crc32/crc32_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/klauspost/crc32/crc32_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/klauspost/crc32/crc32_amd64p32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/klauspost/crc32/crc32_amd64p32.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/klauspost/crc32/crc32_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/README.mdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/action.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/actionlist.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/application.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/bitmap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/boxlayout.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/brush.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/button.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/cancelevent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/canvas.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/checkbox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/clipboard.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/closeevent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/color.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/combobox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/commondialogs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/composite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/condition.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/cursor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/customwidget.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/data/drawing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/data/filebrowser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/databinding.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/dateedit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/action.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/builder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/checkbox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/combobox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/composite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/customwidget.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/databinder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/dateedit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/dialog.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/font.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/groupbox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/imageview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/interfaces.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/label.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/layouts.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/lineedit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/lineerrorpresenter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/listbox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/mainwindow.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/nonwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/numberedit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/progressbar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/pushbutton.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/radiobutton.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/radiobuttongroup.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/radiobuttongroupbox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/scrollview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/slider.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/spacer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/splitbutton.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/splitter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/tableview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/tableviewcolumn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/tabpage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/tabwidget.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/textedit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/toolbar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/toolbutton.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/treeview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/validators.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/declarative/webview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/dialog.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/dropfilesevent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/errorevent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/event.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/actions/actions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/actions/actions.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/actions/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/clipboard/clipboard.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/clipboard/clipboard.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/clipboard/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/databinding/databinding.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/databinding/databinding.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/databinding/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/drawing/drawing.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/drawing/drawing.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/drawing/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/dropfiles/dropfiles.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/dropfiles/dropfiles.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/dropfiles/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/externalwidgets/externalwidgets.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/externalwidgets/externalwidgets.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/externalwidgets/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/filebrowser/filebrowser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/filebrowser/filebrowser.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/filebrowser/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/imageicon/imageicon.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/imageicon/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/imageicon/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/imageviewer/imageviewer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/imageviewer/imageviewer.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/imageviewer/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/img/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/img/document-new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/img/document-properties.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/img/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/img/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/img/system-shutdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/img/x.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/listbox/listbox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/listbox/listbox.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/listbox/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/logview/logview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/logview/logview.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/logview/logviewapp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/logview/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/notifyicon/notifyicon.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/notifyicon/notifyicon.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/notifyicon/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/progressindicator/dialog.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/progressindicator/dialog_ui.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/progressindicator/pi.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/progressindicator/progressindicator.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/progressindicator/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/radiobutton/radiobutton.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/radiobutton/radiobutton.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/radiobutton/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/settings/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/settings/settings.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/settings/settings.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/slider/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/slider/slider.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/slider/slider.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/tableview/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/tableview/tableview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/tableview/tableview.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/webview/rsrc.syso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/webview/webview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/examples/webview/webview.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/font.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/form.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/gridlayout.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/groupbox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/icon.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/image.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/imagelist.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/imageview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/inifilesettings.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/intevent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/keyboard.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/keyevent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/l10n/update.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/l10n/walk-de.tr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/label.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/lineedit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/lineerrorpresenter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/listbox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/mainwindow.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/maptablemodel.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/menu.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/messagebox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/metafile.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/models.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/mouseevent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/notifyicon.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/numberedit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/path.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/pen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/point.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/progressbar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/progressindicator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/property.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/pushbutton.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/radiobutton.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/rectangle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/reflectmodels.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/registry.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/scrollview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/simpletypes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/size.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/slider.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/spacer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/splitbutton.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/splitter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/splitterhandle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/splitterlayout.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/statusbar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/tableview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/tableviewcolumn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/tableviewcolumnlist.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/tabpage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/tabpagelist.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/tabwidget.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/textedit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/toolbar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/toolbutton.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/tools/ui2walk/ui2walk.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/tooltip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/treeitemevent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/treeview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/validators.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/walk.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/webview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/webview_dwebbrowserevents2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/webview_idochostuihandler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/webview_ioleclientsite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/webview_ioleinplaceframe.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/webview_ioleinplacesite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/widget.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/widgetlist.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk/window.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/README.mdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/advapi32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/combobox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/comctl32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/comdlg32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/datetimepicker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/edit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/gdi32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/gdiplus.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/header.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/kernel32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/listbox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/listview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/menu.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/ole32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/oleaut32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/oleaut32_386.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/oleaut32_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/opengl32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/pdh.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/shdocvw.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/shell32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/shobj.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/shobj_386.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/shobj_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/statusbar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/tab.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/toolbar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/tooltip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/treeview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/updown.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/user32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/uxtheme.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/win.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win/winspool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/cmd/metrics-bench/metrics-bench.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/cmd/metrics-example/metrics-example.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/cmd/never-read/never-read.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/counter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/debug.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/ewma.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/exp/exp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/gauge.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/gauge_float64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/graphite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/healthcheck.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/histogram.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/librato/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/librato/librato.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/memory.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/meter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/metrics.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/opentsdb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/registry.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/runtime.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/runtime_cgo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/runtime_gccpufraction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/runtime_no_cgo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/runtime_no_gccpufraction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/sample.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/stathat/stathat.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/syslog.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/timer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/validate.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/rcrowley/go-metrics/writer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/DESIGN.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/ast/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/ast/comments.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/ast/node.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin_array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin_boolean.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin_date.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin_error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin_function.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin_json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin_math.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin_number.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin_object.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin_regexp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/builtin_string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/clone.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/cmpl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/cmpl_evaluate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/cmpl_evaluate_expression.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/cmpl_evaluate_statement.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/cmpl_parse.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/console.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/dbg.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/dbg/dbg.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/evaluate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/file/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/file/file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/global.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/inline.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/inline.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/object.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/object_class.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/otto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/otto/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/otto/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/otto_.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/parser/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/parser/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/parser/dbg.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/parser/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/parser/expression.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/parser/lexer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/parser/parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/parser/regexp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/parser/scope.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/parser/statement.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/property.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/registry/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/registry/registry.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/repl/autocompleter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/repl/repl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/result.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/runtime.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/scope.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/script.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/stash.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/terst/terst.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/test/tester.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/token/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/token/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/token/token.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/token/token_const.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/token/tokenfmt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_arguments.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_boolean.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_date.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_function.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_go_array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_go_map.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_go_slice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_go_struct.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_number.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_reference.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_regexp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/type_string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/underscore/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/underscore/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/underscore/source.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/underscore/testify" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/underscore/underscore.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/value.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/value_boolean.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/value_number.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/value_primitive.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/robertkrimen/otto/value_string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/gjson/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/gjson/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/gjson/gjson.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/gjson/gjson_gae.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/gjson/gjson_ngae.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/gjson/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/match/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/match/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/match/match.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/pretty/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/pretty/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/github.com/tidwall/pretty/pretty.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/atom/atom.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/atom/gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/atom/table.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/charset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/table.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/HTTP-charset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/HTTP-vs-UTF-8-BOM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/HTTP-vs-meta-charset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/HTTP-vs-meta-content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/No-encoding-declaration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/UTF-16BE-BOM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/UTF-16LE-BOM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/UTF-8-BOM-vs-meta-charset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/UTF-8-BOM-vs-meta-content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/meta-charset-attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/charset/testdata/meta-content-attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/const.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/doctype.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/entity.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/escape.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/foreign.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/node.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/parse.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/render.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/go1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/adoption01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/adoption02.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/comments01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/doctype01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/entities01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/entities02.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/html5test-com.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/inbody01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/isindex.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/pending-spec-changes-plain-text-unsafe.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/pending-spec-changes.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/plain-text-unsafe.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/scriptdata01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/scripted/adoption01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/scripted/webkit01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tables01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests10.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests11.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests12.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests14.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests15.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests16.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests17.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests18.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests19.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests20.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests21.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests22.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests23.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests24.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests25.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests26.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests4.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests5.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests6.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests7.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests8.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests9.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tests_innerHTML_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/tricky01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/webkit01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/testdata/webkit/webkit02.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/net/html/token.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/charmap/charmap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/charmap/maketables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/charmap/tables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/encoding.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/htmlindex/gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/htmlindex/htmlindex.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/htmlindex/map.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/htmlindex/tables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/ianaindex/ianaindex.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/internal/identifier/gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/internal/identifier/identifier.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/internal/identifier/mib.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/internal/internal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/japanese/all.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/japanese/eucjp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/japanese/iso2022jp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/japanese/maketables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/japanese/shiftjis.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/japanese/tables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/korean/euckr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/korean/maketables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/korean/tables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/simplifiedchinese/all.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/simplifiedchinese/gbk.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/simplifiedchinese/hzgb2312.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/simplifiedchinese/maketables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/simplifiedchinese/tables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/candide-gb18030.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/candide-utf-16le.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/candide-utf-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/candide-windows-1252.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/rashomon-euc-jp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/rashomon-iso-2022-jp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/rashomon-shift-jis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/rashomon-utf-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/sunzi-bingfa-gb-levels-1-and-2-hz-gb2312.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/sunzi-bingfa-gb-levels-1-and-2-utf-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/sunzi-bingfa-simplified-gbk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/sunzi-bingfa-simplified-utf-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/sunzi-bingfa-traditional-big5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/sunzi-bingfa-traditional-utf-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/unsu-joh-eun-nal-euc-kr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/testdata/unsu-joh-eun-nal-utf-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/traditionalchinese/big5.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/traditionalchinese/maketables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/traditionalchinese/tables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/unicode/override.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/encoding/unicode/unicode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/colltab/colltab.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/colltab/contract.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/colltab/iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/format/format.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/format/plural/plural.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/gen/code.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/gen/gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/internal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/match.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/number/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/number/gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/number/gen_common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/number/number.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/number/pattern.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/number/tables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/stringset/set.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/tables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/tag/tag.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/testtext/codesize.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/testtext/flag.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/testtext/text.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/triegen/compact.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/triegen/print.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/triegen/triegen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/ucd/ucd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/internal/utf8internal/utf8internal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/coverage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/display/dict.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/display/display.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/display/lookup.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/display/maketables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/display/tables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/gen_common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/gen_index.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/go1_1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/go1_2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/index.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/language.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/lookup.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/maketables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/match.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/parse.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/tables.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/language/tags.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/runes/cond.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/runes/runes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/golang.org/x/text/transform/transform.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/bson/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/bson/bson.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/bson/decode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/bson/encode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/bulk.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/cluster.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/example/test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/gridfs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/internal/scram/scram.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/queue.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/raceoff.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/raceon.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/sasl/sasl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/sasl/sasl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/sasl/sasl_windows.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/sasl/sasl_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/sasl/sasl_windows.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/sasl/sspi_windows.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/sasl/sspi_windows.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/saslimpl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/saslstub.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/session.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/socket.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/stats.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/testdb/client.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/testdb/dropall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/testdb/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/testdb/server.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/testdb/setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/testdb/supervisord.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/testdb/wait.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/txn/chaos.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/txn/debug.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/txn/flusher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/txn/tarjan.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/mgo.v2/txn/txn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/sourcemap.v1/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/sourcemap.v1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/sourcemap.v1/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/sourcemap.v1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/sourcemap.v1/base64vlq/base64_vlq.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/vendor/gopkg.in/sourcemap.v1/consumer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/web/bindata_assetfs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/web/bindata_assetfs_usage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/web/httpController.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/web/logsocketController.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/web/pholcus-web.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/web/router.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.com/henrylee2cn/pholcus/web/websocketController.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/golang.org/x/net" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +1124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/src/main/strconv.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            <state relative-caret-position="1548">
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
               </folding>
@@ -38,11 +1136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebServices/src/main/s00_IP.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="360">
               <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding>
-                <element signature="e#14#37#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -50,11 +1145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebServices/src/main/s01_tcp_socket.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
+            <state relative-caret-position="1188">
               <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -62,7 +1154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebServices/src/main/webSocket_client.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
+            <state relative-caret-position="936">
               <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
@@ -71,10 +1163,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebServices/src/main/s02_webSocket.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="504">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
-                <element signature="e#14#82#0" expanded="true" />
+                <element signature="e#14#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,7 +1228,7 @@
     <option name="width" value="1998" />
     <option name="height" value="2117" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -473,10 +1565,10 @@
     </list>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1964" y="39" width="1876" height="2117" extended-state="0" />
+    <frame x="1842" y="39" width="1998" height="2117" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16834451" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22408377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -628,8 +1720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/main/strconv.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state relative-caret-position="1548">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
@@ -638,37 +1730,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebServices/src/main/s00_IP.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="360">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="e#14#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebServices/src/main/s01_tcp_socket.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
+        <state relative-caret-position="1188">
           <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebServices/src/main/webSocket_client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
+        <state relative-caret-position="936">
           <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebServices/src/main/s02_webSocket.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="504">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
-            <element signature="e#14#82#0" expanded="true" />
+            <element signature="e#14#61#0" expanded="true" />
           </folding>
         </state>
       </provider>

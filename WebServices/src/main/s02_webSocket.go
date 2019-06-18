@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/henrylee2cn/pholcus/common/websocket"
+	"golang.org/x/net/websocket"
 )
 
 func Echo(ws *websocket.Conn)  {
@@ -28,6 +28,6 @@ func Echo(ws *websocket.Conn)  {
 	}
 }
 
-func ()  {
-	
-}
+//func ()  {
+//
+//}
